@@ -1,0 +1,23 @@
+{
+    "name": "mapbender/help",
+    "description": "Mapbender Help  element",
+    "keywords": ["mapbender", "help"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thorsten Hildebrandt"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mapbender\\HelpBundle": "src/"
+        }
+    }
+}
